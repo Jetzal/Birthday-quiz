@@ -41,7 +41,19 @@ month =  (input("Hi "+name+", what was the name of the month you were born in?")
 year =  ( input("And what year were you born in," +name+"?"))
 day =  ( input("And the day?"))
 
-if month == January:
-    print("hello")
 
 
+
+
+if month == "january":
+if month == "febuary":
+if month == "march":
+if month == "april":
+if month == "may":
+if month == "june":    
+if month == "july":    
+if month == "august":    
+if month == "september":    
+if month == "october":    
+if month == "november":    
+if month == "december":
