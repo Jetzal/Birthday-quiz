@@ -41,31 +41,34 @@ month =  (input("Hi "+name+", what was the name of the month you were born in?")
 year =  ( input("And what year were you born in," +name+"?"))
 day =  ( input("And the day?"))
 
-print("you were born in {0}.".format(season))
 
 
 
-if month == "january": 
+if month == "January": 
     season= "winter"
-if month == "febuary":
-     season= winter
-if month == "march":
-    season=spring
-if month == "april":
-    season=spring
-if month == "may":
+if month == "Febuary":
+     season= "winter"
+if month == "March":
+    season="spring"
+if month == "April":
+    season="spring"
+if month == "May":
     season ="spring"
-if month == "june":
-    season=summer
-if month == "july":
-    season=summer
-if month == "august":
-    season=summer
-if month == "september":
-    season=fall
-if month == "october":
-    season=fall
-if month == "november":
-    season=fall
-if month == "december":
-     season=winter
+if month == "June":
+    season="summer"
+if month == "July":
+    season="summer"
+if month == "August":
+    season="summer"
+if month == "September":
+    season="fall"
+if month == "October":
+    season="fall"
+if month == "November":
+    season="fall"
+if month == "December":
+     season="winter"
+    
+    
+
+print(+name+", you are a "+season+" baby of the" +age+)
