@@ -69,6 +69,21 @@ if month == "November":
 if month == "December":
      season="winter"
     
-    
+#Years from 1980-1989 are known as the eighties.
 
-print(+name+", you are a "+season+" baby of the" +age+)
+#Years from 1990-1999 are known as the nineties.
+
+#Years from 2000 through today are known as the two thousands.
+
+#Years prior to 1980 are known as the Stone Age.
+
+
+if year >= 2000:
+    age="two thousands"
+if year >= 1990 and year <=1999:
+    age="nineties"
+if year >= 1980 and year <= 1989:
+    age="eighties"
+if year <= 1980:
+    age="the Stone Age"
+print(+name+", you are a "+season+" baby of the " +age+"")
