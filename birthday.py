@@ -78,12 +78,23 @@ if month == "December":
 #Years prior to 1980 are known as the Stone Age.
 
 
-if year >= 2000:
+if int(year) >= 2000:
     age="two thousands"
-if year >= 1990 and year <=1999:
+if int(year) >= 1990 and int(year) <=1999:
     age="nineties"
-if year >= 1980 and year <= 1989:
+if int(year) >= 1980 and int(year) <= 1989:
     age="eighties"
-if year <= 1980:
+if int(year) <= 1980:
     age="the Stone Age"
-print(+name+", you are a "+season+" baby of the " +age+"")
+    
+todaymonth = datetime.today().month
+todaydate = datetime.today().day
+
+TMONTH = month_name[todaymonth]
+
+if month == TMONTH and day == int(todaydate):
+    print("Happy birthday!")
+elif month == "October" and day == "31":
+    print("You were born on Halloween!")
+else:
+    print(""+name+", you are a "+season+" baby of the " +age+"")
